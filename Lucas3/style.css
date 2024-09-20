@@ -2,13 +2,27 @@
     border-style: none;
     margin-bottom: none;
 }
-
 .quadro {
-    background-color: aqua;
-    justify-content: center;
-    min-height: 100vh;
     display: flex;
-    width: 90%;
+    position: absolute;
     align-items: center;
     flex-direction: column;
+    background-color: aqua;
+    padding: 250px 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100px 0px;
+    align-content: space-around;
+    gap: 20px;
+}
+.alternativas {
+    display: flex;
+    align-content: space-around;
+    gap: 10px;
+}
+.titulo {
+    background-color: aliceblue;
+    padding: 5px 30px;
+    border-radius: 10px 0px;
 }
